@@ -8,7 +8,7 @@
 
 # 订阅地址：
 
-- [全局配置-中文策略组](https://raw.githubusercontent.com/HoCooo/Loon/main/Loon-CN.conf) 
+- [全局配置-中文策略组](https://raw.githubusercontent.com/HoCooo/Surge/main/Surge.conf) 
 
 - 如有更多需求前往  [[GitHub]](https://github.com/)   [[Google]](https://www.google.com) 
 
