@@ -4,7 +4,7 @@
 
 [Rule]
 # 如果您是 YouTube Premium，请不要开启此模块。
-URL-REGEX,https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier),REJECT
+URL-REGEX,https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier),REJECT-TINYGIF
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com
