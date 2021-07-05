@@ -1,5 +1,5 @@
-#! SSID-DNS
-#! 网络环境变化自动变换DNS解析
+#!SSID-DNS
+#!网络环境变化自动变换DNS解析
 
 [Host]
 * = script:SSID-DNS
