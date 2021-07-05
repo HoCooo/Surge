@@ -1,0 +1,9 @@
+# SSID-DNS
+# 网络环境变化自动变换DNS解析
+
+[Host]
+* = script:SSID-DNS
+
+[Script]
+# > SSID-DNS
+SSID-DNS = type=dns,script-path=SSID-DNS.js
