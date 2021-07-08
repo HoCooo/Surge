@@ -6,5 +6,8 @@
 # 如果您是 YouTube Premium，请不要开启此模块。
 URL-REGEX,https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier),REJECT-TINYGIF
 
+[URL Rewrite]
+ctier=[A-Z] citer=A 302
+
 [MITM]
 hostname = %APPEND% *.googlevideo.com
