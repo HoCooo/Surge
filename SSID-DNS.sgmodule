@@ -6,4 +6,4 @@
 
 [Script]
 # > SSID-DNS
-SSID-DNS = type=dns,script-path= https://raw.githubusercontent.com/HoCooo/Surge/main/SSID-DNS.js,script-update-interval=0
+SSID-DNS = type=dns,script-path=https://raw.githubusercontent.com/HoCooo/Surge/main/SSID-DNS.js
