@@ -1,4 +1,4 @@
-if ($network.wifi.ssid === 'LEDE' || $network.wifi.ssid === 'LEDE') {
+if ($network.wifi.ssid === 'LEDE' || $network.wifi.ssid === 'InssCore') {
 $done({servers:$network.dns})
 } else {
 $done({})
