@@ -1,6 +1,0 @@
-#!name=策略组自动切换
-#!desc=本方案可单独调整每一个策略组的对应节点 不影响分流 配合BoxJs使用 
-
-[Script]
-# BoxJs订阅：https://raw.githubusercontent.com/ipuppet/Profiles/master/Loon/Script/boxjs.json
-network-changed script-path=https://raw.githubusercontent.com/ipuppet/Profiles/master/Loon/Script/ssid.js, tag=策略组变更
