@@ -1,5 +1,6 @@
 #!name=网易云音乐签到
 #!desc=先登录: https://music.163.com/m/login 再访问: https://music.163.com/#/user/level
+# 模块用起来比较SB建议拉到本地食用（老刘死女马）
 
 [MITM]
 hostname=%APPEND% music.163.com
