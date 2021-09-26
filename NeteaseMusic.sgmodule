@@ -6,5 +6,5 @@
 hostname=%APPEND% music.163.com
 
 [Script]
-http-request ^https:\/\/music.163.com\/weapi\/user\/level script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,requires-body=true
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
+网易云Cookie获取 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,requires-body=1,type=http-request,pattern=^https:\/\/music.163.com\/weapi\/user\/level,max-size=0,script-update-interval=0
+网易云音乐签到 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,type=cron,cronexp=10 0 0 * * *,script-update-interval=0
