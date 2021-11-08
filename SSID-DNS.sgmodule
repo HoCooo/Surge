@@ -1,8 +1,0 @@
-#!name=SSID-DNS
-#!desc=网络环境变化自动变换DNS解析
-
-[Host]
-* = script:SSID-DNS
-
-[Script]
-SSID-DNS = type=dns,script-path=https://raw.githubusercontent.com/HoCooo/Surge/main/SSID-DNS.js,script-update-interval=0
