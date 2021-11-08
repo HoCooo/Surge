@@ -1,5 +1,5 @@
 #!name=京东价格返利
-#!desc=需要下载京粉APP（首次使用需打开一次京粉）
+#!desc=需要获取京东CK才可正常使用
 
 [MITM]
 hostname = %APPEND% api.m.jd.com
