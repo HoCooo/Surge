@@ -24,7 +24,7 @@ var nowSubPolicy = ""
                 console.log(region)
                 if (region === needRegion) {
                     $done({
-                        title: "YouTube Selected",
+                        title: "油管送中节点切换",
                         content: "当前节点："+subPolicy[(nowIndex + index) % subPolicy.length]
                     })
                     return
@@ -37,7 +37,7 @@ var nowSubPolicy = ""
         $surge.setSelectGroupPolicy(youtubeGroup, nowSubPolicy);
 
         $done({
-            title: "送中节点切换",
+            title: "YouTube Selected",
             content: "当前节点："+subPolicy[nowIndex]
         })
 
