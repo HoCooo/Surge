@@ -3,7 +3,7 @@
 #!system=ios
 
 [Panel]
-YouTubeSelect = script-name=YouTubeSelect, update-interval=3600
+YouTubeSelect = script-name=YouTubeSelect, update-interval=600
 
 
 [Script]
