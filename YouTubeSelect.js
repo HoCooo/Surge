@@ -37,7 +37,7 @@ var nowSubPolicy = ""
         $surge.setSelectGroupPolicy(youtubeGroup, nowSubPolicy);
 
         $done({
-            title: "YouTube Selected",
+            title: "油管送中节点切换",
             content: "当前节点："+subPolicy[nowIndex]
         })
 
