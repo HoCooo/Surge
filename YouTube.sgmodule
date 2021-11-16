@@ -2,6 +2,7 @@
 #!desc=油管自动切换送中节点去广告
 #!system=ios
 
+# 自行拉取到本地修改第四行双引号内为自己策略组名
 [Panel]
 YouTubeSelect = script-name=YouTubeSelect, update-interval=600
 
