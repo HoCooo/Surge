@@ -1,7 +1,7 @@
 const BASE_URL = "https://www.youtube.com/premium"
 const needRegion = "CN"
 // let params = getParams($argument)
-let youtubeGroup = "🐔 大  机  场"
+let youtubeGroup = "🇭🇰 香港节点"
 let subPolicy = []
 var nowSubPolicy = ""
     ; (async () => {
