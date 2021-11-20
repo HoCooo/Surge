@@ -4,7 +4,7 @@
 
 # 自行拉取到本地修改第四行双引号内为自己策略组名
 [Panel]
-YouTubeSelect = script-name=YouTubeSelect, update-interval=600
+YouTubeSelect = script-name=YouTubeSelect, update-interval=3600
 
 [Script]
 YouTubeSelect = type=generic,script-path= https://raw.githubusercontent.com/HoCooo/Surge/main/YouTubeSelect.js
