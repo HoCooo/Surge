@@ -1,0 +1,8 @@
+#!name=苹果商店库存查询
+#!desc=配合BoxJs配置取货地区及需求产品
+#!system=ios
+
+[Script]
+# BoxJs订阅：https://github.com/Skyxim/my-rule/raw/main/script/boxjs.json
+# 商店换号 产品型号自行百度搜索
+苹果商店库存查询 = script-path=https://github.com/Skyxim/my-rule/raw/main/script/Apple/AppleStoreInventory.js,type=cron,cronexp=*/10 6-9/1 * * *,script-update-interval=0
