@@ -73,7 +73,6 @@ keyword-filter = icloud,ocsp,logs,analytic,ads,imap,adthor,applovin,appnext,talk
 hide-crash-reporter-request = 0
 
 [Proxy]
-🎯 直接连接 = direct
 
 [Proxy Group]
 🔰 节点选择 = select, 🎯 直接连接, no-alert=0, hidden=0
@@ -87,6 +86,8 @@ hide-crash-reporter-request = 0
 📱 电报吹水 = select, 🔰 节点选择, 🎯 直接连接, no-alert=1, hidden=0
 
 🚀 网速测试 = select, 🎯 直接连接, 🔰 节点选择, no-alert=0, hidden=0
+
+🎯 直接连接 = url-test, DIRECT, no-alert=1, hidden=1
 
 [Rule]
 # > Reject
