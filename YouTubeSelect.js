@@ -24,7 +24,7 @@ var nowSubPolicy = ""
                 console.log(region)
                 if (region === needRegion) {
                     $done({
-                        title: "油管送中节点切换",
+                        title: "油管送中节点切换 🫧",
                         content: "当前节点："+subPolicy[(nowIndex + index) % subPolicy.length]
                     })
                     return
