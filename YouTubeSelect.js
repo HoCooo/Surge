@@ -23,7 +23,7 @@ const needRegion = config.region
 let youtubeGroup = config.policy
 let otherSubProxies = []
 
-let subPolicyCache = new Map(Object.entries(config.cache))
+let subPolicyCache = new Promise(Object.entries(config.cache))
 
 console.log(subPolicyCache.size)
 let preSatisfactionProxies = []
