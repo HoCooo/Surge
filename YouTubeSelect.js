@@ -20,7 +20,7 @@ if (boxConfig != "" && typeof boxConfig != "undefined") {
 
 const needRegion = config.region
 // let params = getParams($argument)
-let youtubeGroup = ✅ 油管专用
+let youtubeGroup = 油管专用
 let otherSubProxies = []
 
 let subPolicyCache = new Map(Object.entries(config.cache))
