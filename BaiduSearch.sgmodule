@@ -7,7 +7,7 @@
 
 [Script]
 # 移除百度搜索首页信息流
-移除百度搜索首页广告 = script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/BaiduSearch/BaiduSearchHomePage_remove_ads.js,requires-body=1,type=http-request,pattern= ^https?:\/\/(www|m)\.baidu\.com(/|\/\?ref.*|\/\?from.*)$,max-size=0,script-update-interval=0
+移除百度搜索首页广告 = type=http-response,pattern=^https?:\/\/(www|m)\.baidu\.com(/|\/\?ref.*|\/\?from.*)$,requires-body=1,max-size=0,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/BaiduSearch/BaiduSearchHomePage_remove_ads.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% m.baidu.com, www.baidu.com
